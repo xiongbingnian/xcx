@@ -1,0 +1,12 @@
+<!--pages/my/changePhone/changePhone.wxml-->
+<text class="hint_title">请输入手机号</text>
+<view class="list_box">
+  <text>国家/地区</text>
+    <text class="right">中国大陆（86）</text>
+</view>
+<view class="list_box">
+  <text>手机号</text>
+  <input class="phone_num" placeholder="请输入手机号" />
+</view>
+<text class="hint_text">手机号有误</text>
+<button bindtap="verifyPhone" class="btn">下一步</button>

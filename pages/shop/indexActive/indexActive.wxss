@@ -1,0 +1,80 @@
+/* pages/shop/indexActive/indexActive.wxss */
+.shop_big_img{
+  width: 100%;
+  height: 350rpx;
+  display: block
+}
+.shop_info{
+  background: #FE3615;
+  padding: 20rpx 40rpx;
+  position: relative;
+  border-top: 1rpx solid #FED8CC;
+}
+.shop_info text{
+  color: #fff;
+  font-size: 26rpx;
+  margin-right: 20rpx;
+}
+.shop_info>view{
+  width: 500rpx;
+  margin: 10rpx 0;
+}
+.shop_info .shop_title{
+  font-size: 36rpx;
+}
+.shop_star{
+  width: 35rpx;
+  height: 35rpx;
+  vertical-align: middle;
+}
+.shop_phone,.shop_site{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: top;
+}
+.site_text{
+  display: inline-block;
+  width: 430rpx;
+}
+.shop_info .is_binding{
+  width:180rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 36rpx;
+  text-align: center;
+  background: #FFD6D0;
+  position: absolute;
+  top: 60rpx;
+  right: 20rpx;
+}
+
+
+.shop_search_box{
+  height: 80rpx;
+  background: #F1F1F1;
+  
+}
+.shop_search_box .search{
+  width: 530rpx;
+  position: absolute;
+  top: 15rpx;
+  left: 20rpx;
+  margin: 0;
+}
+.shop_search_box .i_search{
+  width:50rpx;
+  height:35rpx;
+  top: 25rpx;
+  left: 35rpx;
+}
+.shop_search_box .information{
+  position: absolute;
+  top: 20rpx;
+  right: 40rpx;
+}
+.shop_search_box .dot_48C23D{
+  position: absolute;
+  top: 15rpx;
+  right: 30rpx;
+}
+

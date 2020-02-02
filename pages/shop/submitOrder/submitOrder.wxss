@@ -1,0 +1,85 @@
+/* pages/shop/submitOrder/submitOrder.wxss */
+@import "../../my/indentPage/indentPage.wxss";
+.site{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 50%;
+  margin-top: -35rpx;
+} 
+.address_box{
+  width: 520rpx;
+  display: inline-block;
+  margin-left: 70rpx;
+}
+.address_box text{
+  color: #000;
+}
+.next_step{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 50%;
+  margin-top: -20rpx;
+}
+.subtotal_box{
+  text-align: right;
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  border-top: 1px solid #f1f1f1;
+}
+.subtotal_box>text{
+  margin-left: 40rpx;
+}
+.way_box{
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+.way{
+  width: 500rpx;
+  display: inline-block;
+}
+.icon{
+  float: right;
+  margin-top: 25rpx;
+}
+.textarea{
+  width: 520rpx;
+  height: 50rpx;
+  float: right;
+  
+}
+.total{
+  text-align: right;
+}
+.total>text{
+  margin-left: 40rpx;
+  color: #7A7A7A;
+}
+.bottom_fixed{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+}
+.bottom_fixed>view{
+  display: inline-block;
+}
+.need_pay{
+  width: 450rpx;
+  text-align: center;
+}
+.btn_submit{
+  width: 300rpx;
+  background: #FA3515;
+  color: #fff;
+  text-align: center;
+}
+.color_FA3515{
+  color: #FA3515;
+}

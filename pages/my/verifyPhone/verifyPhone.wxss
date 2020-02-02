@@ -1,0 +1,16 @@
+/* pages/my/verifyPhone/verifyPhone.wxss */
+@import "../index/index.wxss";
+view{
+  text-align: center;
+}
+.hint_text{
+  color: #000;
+}
+.list_box{
+  margin: 30rpx 0 10rpx;
+}
+.regain{
+  color: #FB3B1F;
+  padding: 0 20rpx;
+  border-left: 1px solid #9A9A9A;
+}

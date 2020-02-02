@@ -1,0 +1,81 @@
+/* pages/shop/search/search.wxss */
+.p_center{
+  width:630rpx;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+.search{
+  position: static;
+  margin:0 5rpx;
+  display: inline-block;
+}
+.btn_search{
+  width: 100rpx;
+  height:60rpx;
+  line-height:60rpx;
+  color: #fff;
+  float: right;
+  text-align: center;
+}
+.i_search{
+  width:45rpx;
+  height:30rpx;
+  position:absolute;
+  top:20rpx;
+  left:28rpx
+}
+.history_box{
+  width: 100%;
+  line-height: 45rpx;
+  margin-bottom: 10rpx;
+  padding: 20rpx 30rpx;
+  background: #fff;
+  box-sizing: border-box;
+}
+.history_text{
+  font-size: 26rpx;
+  color: #A4A4A4;
+}
+.del{
+  width: 45rpx;
+  height: 50rpx;
+  float: right;
+}
+.history_commodity_box{
+  padding: 20rpx 15rpx;
+  min-height: 300rpx;
+  background: #fff;
+}
+.history_commodity_box>text{
+  display: inline-block;
+  margin: 15rpx;
+  font-size: 26rpx;
+  color: #A4A4A4;
+}
+.nav{
+  margin-bottom: 10rpx;
+}
+.main{
+  width: 100%;
+}
+.main_item .commodity_centre{
+  width: 260rpx;
+  height: 260rpx;
+}
+.main_item .text_box{
+  width: 450rpx;
+}
+.main_title{
+  font-size: 32rpx;
+}
+.collect_cart{
+  margin-top: 20rpx;
+  text-align: right;
+}
+.collect_cart image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 20rpx;
+}

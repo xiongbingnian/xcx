@@ -1,0 +1,31 @@
+/* pages/shop/commodity/commodity.wxss */
+swiper {
+  height: 450rpx;
+  background: #fff;
+}
+.commodity_box{
+  width: 100%;
+  padding: 20rpx 0 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+}
+.commodity_item{
+  width: 180rpx;
+  height: 200rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  
+}
+.commodity_img{
+  width: 120rpx;
+  height: 100rpx;
+} 
+.commodity-name{
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  color: #101010;
+}

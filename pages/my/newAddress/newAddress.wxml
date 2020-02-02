@@ -1,0 +1,24 @@
+<!--pages/my/newAddress/newAddress.wxml-->
+ <view class="list_box">
+  <text>收货人姓名</text>
+  <input class="address_input" />
+</view>
+<view class="list_box">
+  <text>手机号码</text>
+  <input class="address_input" />
+</view>
+<view class="list_box">
+  <text>所在区域</text>
+  <input class="address_input area_input"/>
+  <text class="color_000">请选择</text>
+  <image class="next_step" src="../../../image/next_step.png"></image>
+</view>
+<view class="list_box">
+  <text>详细地址</text>
+  <input class="address_input" />
+</view>
+<view class="list_box">
+  <text>设为默认地址</text>
+  <icon class="right" type="circle"/>
+</view>
+<button class="btn">保存</button>

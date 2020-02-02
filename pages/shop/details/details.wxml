@@ -1,0 +1,151 @@
+<!--pages/shop/details/details.wxml-->
+<view class="cont">
+  <swiper class="swiper_img" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}}">
+    <block wx:for="{{imgUrls}}" wx:key="">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="100%"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="bg_fff">
+    <text class="title">501主力蓝色单蓝二联收据48开</text> 
+    <text class="article_num">货号501</text>
+    <view class="price_box">
+      <text class="color_FE3615">￥0.85</text>
+      <text class="color_9E9E9E">销量 0</text>
+    </view>
+  </view>
+  <view class="nav">  
+    <text wx:for="{{nav}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="" bindtap="navTap">{{item}}</text>  
+  </view>  
+  <view class="imgText_box" hidden="{{currentTab!==0}}">  
+    <image src="../../../image/details_1.png"></image>
+    <image src="../../../image/details_1.png"></image>
+  </view>  
+  <view class="specifications_box" hidden="{{currentTab!==1}}">  
+    <view class="specifications">
+      <text>品牌</text>
+      <text>主力</text>
+    </view> 
+    <view class="specifications">
+      <text>品牌</text>
+      <text>主力</text>
+    </view> 
+    <view class="specifications">
+      <text>货号</text>
+      <text>主力</text>
+    </view> 
+    <view class="specifications">
+      <text>材质</text>
+      <text>主力</text>
+    </view> 
+    <view class="specifications">
+      <text>特点</text>
+      <text>主力</text>
+    </view> 
+  </view>  
+  <view class="evaluate_box" hidden="{{currentTab!==2}}">
+    <view class="evaluate_list">
+      <view>
+        <text class="evaluate_t">韶关好学友文具店</text>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+      </view>
+      <view class="evaluate_text">质量不错</view>
+      <view class="time">下单：2018-02-02 23：31：01</view>
+    </view>
+    <view class="evaluate_list">
+      <view>
+        <text class="evaluate_t">韶关好学友文具店</text>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+        <image class="i_star" src="../../../image/on_rating_star.png"></image>
+      </view>
+      <view class="evaluate_text">还可以，质量非常的不错</view>
+      <view class="time">下单：2018-02-02 23：31：01</view>
+    </view>  
+    <view class="no_more">没有更多了~~~</view> 
+    <!-- <view class="more">查看更多</view>  -->
+  </view>  
+  <view class="bottom_box">
+    <view class="collect_box" bindtap="collectOk">
+      <image class="collect_img" src="../../../image/collect.png"></image>
+      <text>收藏</text>
+    </view>
+    <view class="car" bindtap="carPopShow">加入购物车</view>
+    <view class="buy" bindtap="buyPopShow">立即购买</view>
+  </view>
+</view>
+<!--加入购物车弹窗-->
+<view class="{{carPop==1?'hide':'show'}}">
+  <view class="mask" bindtap="popHide"></view>
+  <view class="pop_cont">
+    <view class="pop_section">
+      <image class="commodity_img" src="../../../image/commodity_big_1.png"></image>
+      <view class="text_box">
+        <text class="title">501主力蓝色单蓝二联收据48开</text> 
+        <text class="article_num">货号501</text>
+        <view class="price_box">
+          <text class="color_FE3615">￥0.85</text>
+        </view>
+        <text class="color_FE3615 total">已选择商品40件，总价：￥1000.00</text>
+        <view class="specification_box">
+          <text class="colour">蓝色</text>
+          <view class="num_box">
+            <text class="subtract">-</text>
+            <text class="num">1</text>
+            <text class="plus">+</text>
+          </view>
+        </view>
+        <view class="specification_box">
+          <text class="colour">红色</text>
+          <view class="num_box">
+            <text class="subtract">-</text>
+            <text class="num">1</text>
+            <text class="plus">+</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <button class="btn" bindtap="addCarOk">确定</button>
+  </view>
+</view>
+<!--立即购买弹窗-->
+<view class="{{buyPop==1?'hide':'show'}}">
+  <view class="mask" bindtap="popHide"></view>
+  <view class="pop_cont">
+    <view class="pop_section">
+      <image class="commodity_img" src="../../../image/commodity_big_1.png"></image>
+      <view class="text_box">
+        <text class="title">501主力蓝色单蓝二联收据48开</text> 
+        <text class="article_num">货号501</text>
+        <view class="price_box">
+          <text class="color_FE3615">￥0.85</text>
+        </view>
+        <text class="color_FE3615 total">已选择商品40件，总价：￥1000.00</text>
+        <view class="specification_box">
+          <text class="colour">蓝色</text>
+          <view class="num_box">
+            <text class="subtract">-</text>
+            <text class="num">10</text>
+            <text class="plus">+</text>
+          </view>
+        </view>
+        <view class="specification_box">
+          <text class="colour">红色</text>
+          <view class="num_box">
+            <text class="subtract">-</text>
+            <text class="num">5</text>
+            <text class="plus">+</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <button class="btn" bindtap="submitOrder">确定</button>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+/* pages/my/integralPage/integralPage.wxss */
+@import "../index/index.wxss";
+.list_box{
+  margin-bottom: 5rpx;
+}
+.color_F91A1C{
+  color: #F91A1C;
+}

@@ -1,0 +1,13 @@
+/* pages/nearby/industryShops/industryShops.wxss */
+.industry_search{
+  width: 430rpx;
+  display: inline-block;
+}
+.btn_search{
+  width: 90rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: inline-block;
+  text-align: center;
+  color: #646464;
+}

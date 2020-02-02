@@ -1,0 +1,22 @@
+<!--pages/my/personalData/personalData.wxml-->
+<view class="cont">
+  <view class="change_head">
+    <view class="change_head_box">
+      <image class="change_head_img" src="../../../image/change_head.png"></image>
+      <text>更换头像</text>
+    </view>
+  </view>
+  <view class="list_box">
+    <text>用户名</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <view class="list_box" bindtap="change">
+    <text>修改密码</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <view class="list_box" bindtap="changePhone">
+    <text>修改手机号</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+</view>
+

@@ -1,0 +1,177 @@
+<!--pages/shop/index/index.wxml-->
+<view class="cont bg_F1F1F1">
+   <view class="search_box">
+      <image class="rich_scan" src="../../../image/rich_scan.png"></image>
+      <view class="search" bindtap="seaech">商品/货号/品牌</view>
+      <image class="i_search" src="../../../image/i_search.png"></image>
+      <image class="information" src="../../../image/information.png" bindtap="information"></image>
+      <text class="dot_48C23D" bindtap="information">9</text>
+    </view>
+
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="100%"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="commodity_box">
+      <view class="commodity">
+        <view class="circle_item" bindtap="commodity">
+          <image class="circle_img" src="../../../image/circle_img_1.png"></image>
+          <text class="commodity-name">办公文具</text>
+        </view>
+        <view class="circle_item" >
+          <image class="circle_img" src="../../../image/circle_img_2.png"></image>
+          <text class="commodity-name">日用百货</text>
+        </view>
+        <view class="circle_item" >
+          <image class="circle_img" src="../../../image/circle_img_2.png"></image>
+          <text class="commodity-name">其它</text>
+        </view>
+      </view>
+    </view>
+    <view class="boutique_title_box">
+       <text class="boutique_title">精品推荐</text>
+       <view class="hr"></view>
+    </view>
+     <view class="boutique_box">
+       <view class="boutique_item" bindtap="details">
+        <image class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+        <view class="boutique_explain">
+          <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+          <view class="bottom_text">
+            <text class="text_FE3615">去绑定店铺</text>
+            <text class="text_9F9F9F">已售 12035</text>
+          </view>
+        </view>
+       </view>
+       <view class="boutique_item">
+        <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+        <view class="boutique_explain">
+          <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+          <view class="bottom_text">
+            <text class="text_FE3615">去绑定店铺</text>
+            <text class="text_9F9F9F">已售 12035</text>
+          </view>
+        </view>
+       </view>
+       <view class="boutique_item">
+          <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+          <view class="boutique_explain">
+            <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+            <view class="bottom_text">
+              <text class="text_FE3615">去绑定店铺</text>
+              <text class="text_9F9F9F">已售 12035</text>
+            </view>
+          </view>
+        </view>
+        <view class="boutique_item">
+          <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+          <view class="boutique_explain">
+            <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+            <view class="bottom_text">
+              <text class="text_FE3615">去绑定店铺</text>
+              <text class="text_9F9F9F">已售 12035</text>
+            </view>
+          </view>
+        </view>
+    </view>
+</view>
+<!--微信授权弹窗-->
+<view class="{{accreditPop==1?'hide':'show'}}">
+  <view class="mask"></view>
+  <view class="pop_main">
+    <view class="hint_txt_box">
+      <text class="title">微信授权</text>
+      <image class="logo" src="../../../image/logo.png"></image>
+      <text>热采办公文具申请获取以下权限：</text>
+    </view>
+    <view class="">
+      <icon class="dot" />
+      <text class="color_757575">获得你的公开信息（昵称、头像等）</text>
+    </view>
+    <view class="inquiry_box">
+      <text class="color_757575" bindtap="accreditPophide">拒绝</text>
+      <text class="color_48C23D" bindtap="accreditPophide">允许</text>
+    </view>
+  </view>
+</view>
+
+
+
+
+wx.getUserInfo({
+      withCredentials: false,
+      success: function (res) {
+        console.log(res.userInfo);
+        var id = res.userInfo.id;
+        var logo = res.userInfo.avatarUrl;
+        var nickName = res.userInfo.nickName;
+        wx.request({
+          url: that.globalData.apiUrl + 'wx/user/updateuser.api',
+          data: {
+            'id': id,
+            'username': nickName,
+            'headimg': logo
+          }
+        })
+        typeof cb == "function" && cb(that.globalData.userInfo)
+      }
+    })
+
+    var that=this;
+    wx.login({
+      success: function (res) {
+        if (res.code) {
+          //发起网络请求
+          wx.request({
+            url: that.globalData.apiUrl + 'wx/login/jscode2session.api',
+            data: {
+              code: res.code
+            },
+            success:function(res){
+              //调用登录接口
+              var user = res.data.user;
+              var storeId = res.data.storeId;
+              that.globalData.userInfo = user;
+              that.globalData.storeId = storeId;
+              that.globalData.isbind=true;
+            }
+          })
+        } else {
+          console.log('获取用户登录态失败！' + res.errMsg)
+        }
+        
+      }
+    });
+
+
+    if (app.globalData.userInfo.id==0){
+      wx.login({
+        success: function (res) {
+          if (res.code) {
+            //发起网络请求
+            wx.request({
+              url: app.globalData.apiUrl + 'wx/login/jscode2session.api',
+              data: {
+                code: res.code
+              },
+              success: function (res) {
+                //调用登录接口
+                var userInfo = res.data.user;
+                var storeId = res.data.storeId;
+                app.globalData.userInfo = userInfo;
+                app.globalData.storeId = storeId;
+                //获取广告，分类
+                that.getDate(userInfo, storeId);
+              }
+            })
+          }
+        }
+      })
+    }else{
+      console.log('index 未登录接口')
+      this.getDate(app.globalData.userInfo, app.globalData.storeId);
+      this.data.pageIndex=1;
+    }

@@ -1,0 +1,61 @@
+<!--pages/my/indent/indent.wxml-->
+<view class="cont">
+  <view class="nav">
+    <view class="active">全部</view>
+    <view>未完成</view>
+    <view>已完成</view>
+  </view>
+  <view class="white_box">
+    <text class="title text_block">订单编号：20171515457245</text>
+    <text class="rigth_text">未完成</text>
+    <view class="inventory">
+      <image class="inventory_img" src=""></image>
+      <view class="text_box">
+        <view>
+          <text class="inventory_title">818现金及银行结算户存款818现金及银存款</text>
+          <text class="price">￥0.25</text>
+        </view>
+        <view>
+          <text>货号503</text>
+        </view>
+        <view>
+          <text class="color_7A7A7A">蓝色20</text>
+        </view>
+        <view class="text_right">
+          <text>共20个商品；实付￥5.00</text>
+        </view>
+      </view>
+      <view class="btn_box">
+        <view class="btn">订单处理中</view>
+      </view>
+    </view>
+  </view>
+  <view class="white_box">
+    <text class="title text_block">订单编号：20171515457245</text>
+    <text class="rigth_text">已完成</text>
+    <view class="inventory">
+      <image class="inventory_img" src=""></image>
+      <view class="text_box">
+        <view>
+          <text class="inventory_title">818现金及银行结算户存款818现金及银存款</text>
+          <text class="price">￥0.25</text>
+        </view>
+        <view>
+          <text>货号503</text>
+        </view>
+        <view>
+          <text class="color_7A7A7A">蓝色20</text>
+        </view>
+        <view class="text_right">
+          <text>共20个商品；实付￥5.00</text>
+        </view>
+      </view>
+      <view class="btn_box">
+        <view class="btn btn_active">评价</view>
+        <view class="btn">再次购买</view>
+        <view class="btn">删除</view>
+      </view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,44 @@
+<!--pages/my/integralPage/integralPage.wxml-->
+<view class="cont">
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="color_F91A1C right">+5</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="right">-2</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="color_F91A1C right">+5</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="right">-2</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="color_F91A1C right">+5</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="right">-2</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="color_F91A1C right">+5</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="right">-2</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="color_F91A1C right">+5</text>
+  </view>
+  <view class="list_box">
+    <text>2016年5月17 05:30</text>
+    <text class="right">-2</text>
+  </view>
+</view>
+

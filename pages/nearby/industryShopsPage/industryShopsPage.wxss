@@ -1,0 +1,68 @@
+/* pages/nearby/industryShopsPage/industryShopsPage.wxss */
+.white_box{
+  padding: 20rpx 40rpx;
+  background: #fff;
+  margin-bottom: 10rpx;
+  position: relative;
+  font-size: 28rpx;
+}
+.shop_name{
+  font-size: 32rpx;
+}
+.industry_text{
+  float: right;
+  color: #A2A2A2;
+  margin-right: 80rpx;
+}
+.bottom_arrow {
+  width:50rpx;
+  height:50rpx;
+  position:absolute;
+  top:16rpx;
+  right:40rpx; 
+}
+.address_text{
+  display: inline-block;
+  width: 420rpx;
+  vertical-align: top;
+}
+.next_step{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: top;
+  position: absolute;
+  top: 50%;
+  margin-top: -20rpx;
+  right: 140rpx;
+}
+.phone{
+  float: right;
+  width: 80rpx;
+  border-left: 2px solid #F1F1F1;
+  text-align: right;
+}
+.phone_img{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.intro_text{
+  display: block;
+  min-height: 130rpx;
+  padding: 20rpx 0 0;
+  margin-top: 20rpx;
+  border-top: 1px solid #F1F1F1;
+  color: #A2A2A2;
+}
+.ad_box{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+}
+.ad_img{
+  width: 370rpx;
+  height: 220rpx;
+  margin-bottom: 10rpx;
+}

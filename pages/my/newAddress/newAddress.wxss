@@ -1,0 +1,14 @@
+/* pages/my/newAddress/newAddress.wxss */
+@import "../index/index.wxss";
+view{
+  color:#727272;
+}
+icon{
+  margin-top:20rpx; 
+}
+.area_input{
+  width: 380rpx; 
+}
+.color_000{
+  color: #000;
+}

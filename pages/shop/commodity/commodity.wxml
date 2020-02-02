@@ -1,0 +1,117 @@
+<!--pages/shop/commodity/commodity.wxml-->
+<view class="cont bg_F1F1F1">
+  <view class="commodity_box">
+    <view class="commodity_item" bindtap="commodityPage">
+      <image class="commodity_img" src="../../../image/commodity_1.png"></image>
+      <text class="commodity-name">单据</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_2.png"></image>
+      <text class="commodity-name">财务凭证</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_3.png"></image>
+      <text class="commodity-name">书写工具</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_4.png"></image>
+      <text class="commodity-name">办公用纸</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_5.png"></image>
+      <text class="commodity-name">本册</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_6.png"></image>
+      <text class="commodity-name">文件整理</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_7.png"></image>
+      <text class="commodity-name">桌面文具</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_8.png"></image>
+      <text class="commodity-name">财务用品</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_1.png"></image>
+      <text class="commodity-name">单据</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_2.png"></image>
+      <text class="commodity-name">财务凭证</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_3.png"></image>
+      <text class="commodity-name">书写工具</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_4.png"></image>
+      <text class="commodity-name">办公用纸</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_5.png"></image>
+      <text class="commodity-name">本册</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_6.png"></image>
+      <text class="commodity-name">文件整理</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_7.png"></image>
+      <text class="commodity-name">桌面文具</text>
+    </view>
+    <view class="commodity_item" >
+      <image class="commodity_img" src="../../../image/commodity_8.png"></image>
+      <text class="commodity-name">财务用品</text>
+    </view>
+  </view>
+
+  <view class="boutique_title_box">
+      <text class="boutique_title">猜你喜欢</text>
+      <view class="hr"></view>
+  </view>
+  <view class="boutique_box">
+    <view class="boutique_item" bindtap="details">
+    <image class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+    <view class="boutique_explain">
+      <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+      <view class="bottom_text">
+        <text class="text_FE3615">去绑定店铺</text>
+        <text class="text_9F9F9F">已售 12035</text>
+      </view>
+    </view>
+    </view>
+    <view class="boutique_item">
+    <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+    <view class="boutique_explain">
+      <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+      <view class="bottom_text">
+        <text class="text_FE3615">去绑定店铺</text>
+        <text class="text_9F9F9F">已售 12035</text>
+      </view>
+    </view>
+    </view>
+    <view class="boutique_item">
+      <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+      <view class="boutique_explain">
+        <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+        <view class="bottom_text">
+          <text class="text_FE3615">去绑定店铺</text>
+          <text class="text_9F9F9F">已售 12035</text>
+        </view>
+      </view>
+    </view>
+    <view class="boutique_item">
+      <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+      <view class="boutique_explain">
+        <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+        <view class="bottom_text">
+          <text class="text_FE3615">去绑定店铺</text>
+          <text class="text_9F9F9F">已售 12035</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="no_more">没有更多了</view>
+</view>

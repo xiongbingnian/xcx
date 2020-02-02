@@ -1,0 +1,68 @@
+<!--pages/shop/submitOrder/submitOrder.wxml-->
+<view class="cont">
+  <view class="white_box">
+    <image class="site" src="../../../image/site.png"></image>
+    <view class="address_box">
+      <text class="name">王晓</text>
+      <text class="phone_num">13986154745</text>
+      <text class="detailed_address text_block">广东省云城西路288创意园C栋1楼</text>
+    </view>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <view class="white_box">
+    <view class="inventory">
+      <image class="inventory_img" src="../../../image/commodity_big_1.png"></image>
+      <view class="text_box">
+        <view>
+          <text class="inventory_title">503三联单栏收据48开</text>
+          <text class="price">￥0.8</text>
+        </view>
+        <view>
+          <text>货号503</text>
+        </view>
+        <view>
+          <text class="color_7A7A7A">蓝色:800</text>
+        </view>
+      </view>
+    </view>
+    <view class="subtotal_box">
+      <text>进货数量：800</text>
+      <text>小计：￥720.00</text>
+    </view>
+  </view>
+  <view class="white_box">
+    <text class="title text_block">选择配送方式</text>
+    <view class="way_box">
+      <view class="way">
+        <text class="text_block">送货上门</text>
+        <text class="detailed_address text_block">店家送货上门，货到付款</text>
+      </view>
+      <icon bindtap="selectClick" class="icon" data-num="1" type="{{_num==1?'success':'circle'}}" color="{{_num==1?'#81C82D':'#666666'}}"  size="20"/>
+    </view>
+    <view>
+      <view class="way">
+        <text class="text_block">自提</text>
+        <text class="detailed_address text_block">买家自提货品，当面结算</text>
+      </view>
+      <icon bindtap="selectClick" class="icon" data-num="2" type="{{_num==2?'success':'circle'}}" color="{{_num==2?'#81C82D':'#666666'}}"  size="20"/>
+    </view>
+  </view>
+  <view class="white_box">
+    <text>买家留言</text>
+    <textarea class="textarea" placeholder="选填" />
+  </view>
+  <view class="white_box">
+    <view class="total">
+      <text>共800件商品</text>
+      <text>合计：￥720.00</text>
+    </view>
+  </view>
+  <view class="bottom_fixed">
+    <view class="need_pay">
+      <text>需支付</text>
+      <text class="color_FA3515">￥700.00</text>
+    </view>
+    <view bindtap="success" class="btn_submit">提交订单</view>
+  </view>
+</view>
+

@@ -1,0 +1,11 @@
+<!--pages/my/integral/integral.wxml-->
+<view class="cont">
+  <view class="head">
+    <view>我的积分</view>
+    <view class="num">1550</view>
+  </view>
+   <view class="list_box" bindtap="integralPage">
+    <text>积分明细</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="cont">
+  <image class="logIn_img" src="../../image/logIn.png"></image>
+  <view class="pop">
+    <view class="mask"></view>
+    <view class="pop_main">
+      <view class="hint_txt_box">
+        <text class="title">微信授权</text>
+        <image class="logo" src="../../image/logo.png"></image>
+        <text>热采办公文具申请获取以下权限：</text>
+      </view>
+      <view class="">
+        <icon class="dot" />
+        <text class="color_757575">获得你的公开信息（昵称、头像等）</text>
+      </view>
+      <view class="inquiry_box">
+        <text class="color_757575" bindtap="index">拒绝</text>
+        <text class="color_48C23D" bindtap="index">允许</text>
+      </view>
+    </view>
+  </view>
+</view>

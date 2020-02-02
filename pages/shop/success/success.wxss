@@ -1,0 +1,60 @@
+/* pages/shop/success/success.wxss */
+.white_box{
+  background: #fff;
+  padding: 20rpx 40rpx;
+  margin-bottom: 10rpx;
+  font-size: 28rpx;
+  color:#000;
+  position: relative;
+  overflow: hidden;
+}
+.center_text{
+  text-align: center;
+  margin: 20rpx 0 0;
+}
+.success{
+  vertical-align: middle;
+  margin:20rpx 20rpx 20rpx 0;
+}
+.white_box .center_text text{
+  font-size: 40rpx;
+  color: #000;
+}
+.white_box text{
+  color: #999999;
+}
+.mB{
+  margin-bottom: 10rpx;
+}
+.mB text{
+  margin-right: 20rpx;
+}
+.white_box .center_text .txt_big{
+  font-size: 30rpx;
+  color: #999999;
+}
+
+.btn_box {
+  width: 100%;
+  padding: 20rpx 40rpx;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.btn_box .btn{
+  float: right;
+  font-size: 30rpx; 
+  padding: 5rpx 30rpx;
+  border: 1rpx solid #FF3121;
+  color: #FF3121;
+  margin-left: 20rpx;
+  background: #f1f1f1;
+  margin-top: 10rpx;
+}
+.btn_box .btn_active{
+  background: #FF3121;
+  color: #fff;
+}
+.btn_box .btn_gray{
+  color: #999999;
+  border: 1rpx solid #999999;
+}

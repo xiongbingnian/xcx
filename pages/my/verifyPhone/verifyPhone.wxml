@@ -1,0 +1,9 @@
+<!--pages/my/verifyPhone/verifyPhone.wxml-->
+<view class="hint_text">验证码已发送到您的手机：</view>
+<view>156*****693</view>
+<view class="list_box">
+  <input class="phone_num" placeholder="请输入验证码" />
+  <text class="regain">重新获取</text>
+</view>
+<button class="btn">完成</button>
+

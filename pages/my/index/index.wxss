@@ -1,0 +1,112 @@
+/* pages/my/index/index.wxss */
+.head{
+  width: 100%;
+  height: 340rpx;
+  background: #FF735A;
+  padding: 50rpx;
+  box-sizing: border-box;
+}
+.head_img{
+  width: 210rpx;
+  height: 210rpx;
+  vertical-align: top;
+  margin-right: 30rpx;
+  border-radius: 50%;
+  border: 3px solid #FE3615;
+}
+.text_box{
+  width: 380rpx;
+  display: inline-block;
+  color: #fff;
+  margin-top: 30rpx;
+}
+.text_box .title{
+  display: inline-block;
+  margin-bottom: 20rpx;
+}
+
+.integral{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+  position: relative;
+  top: 10rpx;
+}
+.list_box text{
+  font-size: 30rpx
+}
+.indent{
+  background: #fff;
+  margin-bottom: 10rpx;
+}
+.list_box{
+  width: 100%;
+  height: 100rpx;
+  line-height: 80rpx;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  background:#fff;
+  margin-bottom: 2rpx;
+}
+.list_img{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+  position: relative;
+  top: 10rpx;
+}
+.list_box text{
+  font-size: 32rpx;
+}
+.next_step{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-top: 22rpx;
+}
+
+.flex{
+  width: 100%;
+  padding: 10rpx 20rpx;
+  border-top: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content:space-around;
+}
+.indent_item{
+  width: 100rpx;
+  text-align: center;
+}
+.indent_item text{
+  display: inline-block;
+  font-size: 32rpx;
+  color: #999999;
+}
+.undone,.done{
+  width: 60rpx;
+  height: 60rpx;
+}
+.binding_box{
+  margin-bottom: 10rpx;
+}
+
+/*********修改密码，修改手机号**********/
+.hint_title{
+  display: inline-block;
+  padding: 10rpx 20rpx 0;
+}
+.username,.password,.phone_num,.address_input{
+  display: inline-block;
+  width: 500rpx;
+  height: 90rpx;
+  vertical-align: middle;
+  padding: 0 20rpx;
+}
+.hint_text{
+  display: block;
+  margin: 20rpx;
+  font-size: 28rpx;
+  color: red;
+}

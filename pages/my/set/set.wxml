@@ -1,0 +1,22 @@
+<!--pages/my/set/set.wxml-->
+  <view class="list_box">
+    <text>消息推送</text>
+    <switch class="notification" checked bindchange="notification" color="#FE4426"/>  
+  </view>
+  <view class="list_box binding_box">
+    <text>关于我们</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+   <view class="list_box">
+    <text>用户反馈</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <view class="list_box binding_box">
+    <text>清除缓存</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+   <view class="list_box">
+    <text>版本更新</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <button class="btn">退出登录</button>

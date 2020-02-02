@@ -1,0 +1,47 @@
+<!--pages/my/collect/collect.wxml-->
+<view class="cont bg_F1F1F1">
+  <view class="compile">
+    <text>您最近收藏3个商品</text>
+    <view class="btn_compile" bindtap="collectCompile">编辑</view>
+  </view>
+  <view class="white_box">
+    <view class="inventory">
+      <image class="inventory_img" src=""></image>
+      <view class="text_box">
+        <view>
+          <text class="compile_title">813费用报销单48开</text>
+        </view>
+        <view>
+          <text class="color_FE3615">￥0.23</text>
+        </view>
+        <view>
+          <text class="sales">销量 20145件</text>
+        </view>
+        <view class="btn_box">
+          <view class="btn btn_active">加入购物车</view>
+          <view class="btn">取消收藏</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="white_box">
+    <view class="inventory">
+      <image class="inventory_img" src=""></image>
+      <view class="text_box">
+        <view>
+          <text class="compile_title">503三联单栏收据48开</text>
+        </view>
+        <view>
+          <text class="color_FE3615">￥0.23</text>
+        </view>
+        <view>
+          <text class="sales">销量 20145件</text>
+        </view>
+        <view class="btn_box">
+          <view class="btn btn_active">加入购物车</view>
+          <view class="btn">取消收藏</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

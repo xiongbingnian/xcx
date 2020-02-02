@@ -1,0 +1,8 @@
+/* pages/my/compileAddress/compileAddress.wxss */
+@import "../index/index.wxss";
+view{
+  color:#727272;
+}
+icon{
+  margin-top:20rpx; 
+}

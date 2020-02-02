@@ -1,0 +1,58 @@
+<!--pages/my/index/index.wxml-->
+<view class="cont">
+  <view class="head">
+    <view class="head_box">
+      <image class="head_img" src="../../../image/head.png" bindtap="personalData"></image>
+      <view class="text_box">
+        <text class="title">一乔办公文具店</text>
+        <view class="integral_box" bindtap="integral">
+          <image class="integral" src="../../../image/integral.png"></image>
+          <text>5000积分</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="indent">
+    <view class="list_box" bindtap="indent">
+      <image class="list_img" src="../../../image/indent.png"></image>
+      <text>我的订单</text>
+      <image class="next_step" src="../../../image/next_step.png"></image>
+    </view>
+    <view class="flex">
+      <view class="indent_item" bindtap="indentPage">
+        <image class="undone" src="../../../image/undone.png"></image>
+        <text>未完成</text>
+      </view> 
+      <view class="indent_item" bindtap="indentPage">
+        <image class="done" src="../../../image/done.png"></image>
+        <text>已完成</text>
+      </view> 
+    </view>
+  </view>
+  <view class="list_box" bindtap="address">
+    <image class="list_img" src="../../../image/address.png"></image>
+    <text>收货地址</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <view class="list_box" bindtap="collect">
+    <image class="list_img" src="../../../image/collect.png"></image>
+    <text>我的收藏</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <view class="list_box binding_box" bindtap="binding">
+    <image class="list_img" src="../../../image/binding.png"></image>
+    <text>绑定店铺</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <view class="list_box" bindtap="camera">
+    <image class="list_img" src="../../../image/camera.png"></image>
+    <text>晒晒我的店铺</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+  <view class="list_box" bindtap="set">
+    <image class="list_img" src="../../../image/set.png"></image>
+    <text>设置</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+  </view>
+</view>

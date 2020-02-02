@@ -1,0 +1,53 @@
+<!--pages/my/indentPage/indentPage.wxml-->
+<view class="cont">
+  <view class="white_box">
+    <text class="color_FF3121">已完成</text>
+  </view>
+  <view class="white_box">
+    <text class="order_number text_block">订单号：S26452007154245</text>
+    <text class="text_block">下单时间：2016/12/31  11:00:00</text>
+  </view>
+  <view class="white_box">
+    <text class="title text_block">收货地址</text>
+    <text class="name">王晓</text>
+    <text class="phone_num">13986154745</text>
+    <text class="detailed_address text_block">广东省广州市白云区云城西路288创意园C栋1楼</text>
+  </view>
+  <view class="white_box">
+    <text class="title text_block">选择配送方式</text>
+    <text class="text_block">送货上门</text>
+    <text class="detailed_address text_block">店家送货上门，货到付款</text>
+  </view>
+  <view class="white_box">
+    <text class="title text_block">商品清单</text>
+    <image class="bottom_arrow" src="../../../image/bottom_arrow.png"></image>
+    <view class="inventory">
+      <image class="inventory_img" src=""></image>
+      <view class="text_box">
+        <view>
+          <text class="inventory_title">503三联单栏收据48开</text>
+          <text class="price">￥0.8</text>
+        </view>
+        <view>
+          <text>货号503</text>
+        </view>
+        <view>
+          <text class="color_7A7A7A">蓝色20</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="white_box">
+    <text>购买数量</text>
+    <text class="right">800</text>
+  </view>
+  <view class="white_box">
+    <text>订单金额</text>
+    <text class="right">￥625.00</text>
+  </view>
+  <view class="btn_box">
+    <view bindtap="evaluate" class="btn btn_active">评价</view>
+    <view class="btn">再次购买</view>
+    <view class="btn">删除</view>
+  </view>
+</view>

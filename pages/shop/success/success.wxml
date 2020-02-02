@@ -1,0 +1,36 @@
+<!--pages/shop/success/success.wxml-->
+<view class="cont">
+  <view class="white_box">
+    <view class="center_text">
+      <icon class="success" type="success" size="40" color="#81C730"/>
+      <text>恭喜你，下单成功啦！</text>
+      <view class="mB">
+        <text class="txt_big">店家已接到您的订单请求，将火速为您配货</text>
+      </view>
+      <view>
+        <text class="txt_big">请保持通讯顺畅！</text>
+      </view>
+    </view>   
+  </view>
+  <view class="white_box">
+    <text>订单编号：1234564512154</text>
+  </view>
+  <view class="white_box">
+    <view class="mB">
+      <text>收货人：</text>
+      <text>猫星人</text>
+      <text>18245684521</text>
+    </view>
+    <view>
+      <text>收货地址：</text>
+      <text>广东省云城西路288创意园C栋1楼</text>
+    </view>
+  </view>
+  <view class="white_box">
+    <text>总金额：￥648.00</text>
+  </view>
+  <view class="btn_box">
+    <view class="btn">查看订单</view>
+    <view class="btn btn_gray">返回</view>
+  </view>
+</view>

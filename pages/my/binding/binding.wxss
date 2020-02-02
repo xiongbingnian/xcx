@@ -1,0 +1,15 @@
+/* pages/my/binding/binding.wxss */
+.btn_binding,.btn_nobinding{
+  float: right;
+  padding: 2rpx 20rpx;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 4px;
+}
+.btn_binding{
+  background: #FC3214;
+  
+}
+.btn_nobinding{
+  background: #989898;
+}

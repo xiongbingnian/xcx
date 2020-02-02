@@ -1,0 +1,58 @@
+/* pages/my/collect/collect.wxss */
+.compile{
+  padding: 20rpx 40rpx;
+  background: #FFEBE8;
+  font-size: 28rpx;
+  position: relative;
+}
+.btn_compile{
+  display: inline-block;
+  text-align: center;
+  padding: 0 20rpx;
+  color: #FE3615;
+  position: absolute;
+  top: 20rpx;
+  right: 40rpx;
+}
+.white_box{
+  padding: 20rpx 40rpx;
+  background: #fff;
+  border-bottom: 1px solid #f1f1f1;
+  overflow: hidden;
+}
+.inventory_img{
+  width: 200rpx;
+  height: 200rpx;
+  background: #8C8C8C;
+}
+.text_box{
+  width: 450rpx;
+}
+.color_FE3615{
+  color: #FE3615;
+}
+.sales{
+  color: #8B8B8B;
+  font-size: 26rpx;
+}
+.btn_box {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+}
+.btn_box .btn{
+  float: right;
+  font-size: 26rpx; 
+  padding: 8rpx 15rpx;
+  border: 1rpx solid #C4C4C4;
+  color: #6F6F6F;
+  margin-left: 20rpx;
+  background: transparent;
+  margin-top: 10rpx;
+}
+.btn_box .btn_active{
+  background: #FF3121;
+  border: 1rpx solid #FF3121;
+  color: #fff;
+}

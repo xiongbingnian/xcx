@@ -1,0 +1,51 @@
+<!--pages/my/camera/camera.wxml-->
+<view class="cont bg_F1F1F1">
+  <view class="white_box">
+    <text class="shop_name">上传店铺图片</text>
+  </view>
+  <view class="img_box">
+    <image class="shop_img" src="../../../image/shop_big_img.png"></image>
+    <view class="add_img">+图片</view>
+  </view>
+  <view class="white_box no_padding_tb">
+    <view class="border_bottom">
+      <text>行业</text>
+      <text class="industry_text"></text>
+      <image class="bottom_arrow" src="../../../image/bottom_arrow.png"></image>
+    </view>
+    <view class="border_bottom">
+      <text>电话</text>
+      <input class="phone_input" type="text" />
+    </view>
+    <view class="border_bottom">
+      <text>地址：</text>
+      <text class="address_text"></text>
+      <text class="color_A2A2A2">请选择</text>
+      <image class="next_step" src="../../../image/next_step.png"></image>
+    </view>
+    <view class="border_bottom no_border">
+      <text>详细地址</text>
+      <input class="site_input" type="text" />
+    </view>
+  </view>
+  <view class="white_box">
+    <text>简介</text>
+    <textarea show-confirm-bar="false" class="intro_text" placeholder="请填写店铺简介，让买家更了解你！"></textarea>
+  </view>
+  <button class="btn" bindtap="hintPopShow">提交</button>
+  <view class="white_box">
+    <text>广告</text>
+  </view>
+  <view class="ad_box">
+    <image class="ad_img" src="../../../image/ad_1.png"></image>
+    <image class="ad_img" src="../../../image/ad_2.png"></image>
+  </view>
+</view>
+<!--提示弹窗-->
+<view class="{{hint_pop==1?'hide':'show'}}">
+  <view class="mask"></view>
+  <view class="hint_main">
+    <text class="pop_header">提示</text>
+    <text class="pop_text">您的店铺信息已提交成功等待审核中...</text>
+  </view>
+</view>

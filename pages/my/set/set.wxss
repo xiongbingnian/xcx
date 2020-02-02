@@ -1,0 +1,28 @@
+/* pages/my/set/set.wxss */
+.list_box{
+  width: 100%;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  background:#fff;
+  margin-bottom: 5rpx;
+  position: relative;
+}
+.list_box text{
+  font-size: 32rpx;
+}
+.notification{
+  position: absolute;
+  top: 50%;
+  right: 40rpx;
+  margin-top: -60rpx;
+}
+.next_step{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 50%;
+  right: 40rpx;
+  margin-top: -20rpx;
+}

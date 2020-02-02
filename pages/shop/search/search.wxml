@@ -1,0 +1,63 @@
+<!--pages/shop/search/search.wxml-->
+<view class="cont bg_F1F1F1">
+   <view class="search_box">
+    <view class="p_center">
+        <image class="i_search" src="../../../image/i_search.png"></image>
+        <input class="search" placeholder="521" focus bindinput="bindinput" confirm-type="搜索"/>
+        <view class="btn_search">搜索</view>
+     </view>
+   </view>
+
+    <view class="no_change hide">
+      <view class="history_box">
+        <text class="history_text">历史搜索</text>
+        <image class="del" src="../../../image/del.png"></image>
+      </view>
+      <view class="history_commodity_box">
+        <text>单据</text>
+        <text>计算器</text>
+        <text>CP-009</text>
+        <text>主力</text>
+      </view>
+    </view>
+
+    <view class="change">
+      <view class="nav">
+        <view>默认</view>
+        <view>最新</view>
+        <view>销量</view>
+        <view>价格</view>
+      </view>
+      <view class="main">
+        <view class="main_item">
+          <image class="commodity_centre" src="../../../image/commodity_centre_1.png"></image>
+          <view class="text_box">
+            <text class="main_title">521四联单栏出仓单48开仓单48开</text>
+            <view class="bottom_text">
+              <text class="text_FE3615">￥0.95</text>
+              <text class="text_9F9F9F">销量 12035</text>
+            </view>
+            <view class="collect_cart">
+              <image src="../../../image/search_collect.png"></image>
+              <image src="../../../image/search_cart.png"></image>
+            </view>
+          </view>
+        </view>
+         <view class="main_item">
+          <image class="commodity_centre" src="../../../image/commodity_centre_1.png"></image>
+          <view class="text_box">
+            <text class="main_title">521四联单栏出仓单48开仓单48开</text>
+            <view class="bottom_text">
+              <text class="text_FE3615">￥0.95</text>
+              <text class="text_9F9F9F">销量 12035</text>
+            </view>
+            <view class="collect_cart">
+              <image src="../../../image/search_collect.png"></image>
+              <image src="../../../image/search_cart.png"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+     <view class="no_more">没有更多了</view>
+</view>

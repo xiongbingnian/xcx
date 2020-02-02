@@ -1,0 +1,23 @@
+<!--pages/shop/information/information.wxml-->
+<view class="time">2017-10-12 11:53:53</view>
+<view class="info_main">
+  <view class="title">积分赠送</view>
+  <view class="info_text">绑定店铺赠送10积分已到账，请注意查询！</view>
+  <view class="shrink">
+    <view>
+      <image class="b_arrow" src="../../../image/b_arrow.png"></image>
+      <text>展开</text>
+    </view>
+  </view>
+</view>
+<view class="time">2017-10-12 11:53:53</view>
+<view class="info_main">
+  <view class="title">积分赠送</view>
+  <view class="info_text">绑定店铺赠送10积分已到账，请注意查询！</view>
+  <view class="shrink">
+    <view>
+      <image class="b_arrow" src="../../../image/b_arrow.png"></image>
+      <text>展开</text>
+    </view>
+  </view>
+</view>

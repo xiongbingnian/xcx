@@ -1,0 +1,17 @@
+/* pages/my/indent/indent.wxss */
+@import "../indentPage/indentPage.wxss";
+.nav{
+  margin-bottom: 10rpx;
+}
+.rigth_text{
+  position: absolute;
+  top: 20rpx;
+  right: 40rpx;
+  color: #FDA63C;
+}
+.text_right{
+  text-align: right;
+}
+.btn_box{
+  padding: 20rpx 0;
+}

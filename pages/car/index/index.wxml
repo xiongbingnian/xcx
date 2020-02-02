@@ -1,0 +1,125 @@
+<!--pages/car/index/index.wxml-->
+<view class="cont bg_F1F1F1">
+  <view class="white_box">
+    <view class="inventory">
+      <icon class="icon" type="circle" size="28"/>
+      <image class="inventory_img" src="../../../image/commodity_big_1.png"></image>
+      <view class="text_box">
+        <view>
+          <text class="compile_title">813费用报销单48开费用报销单48开</text>
+          <text class="right">删除</text>
+        </view>
+        <view>
+           <text>货号3502</text>
+        </view>
+        <view>
+          <text>￥43.0</text>
+          <text class="right">×3</text>
+        </view>
+        <view>
+          <image class="bottom_arrow" src="../../../image/bottom_arrow.png"></image>
+          <text bindtap="numPopShow" class="color_FE3615 right">修改数量</text>
+        </view>
+      </view>
+    </view>
+    <view class="subtotal">
+      <text>共3个商品</text>
+      <text>小计￥129.00</text>
+    </view>
+  </view>
+  <view class="white_box">
+    <view class="inventory">
+      <icon class="icon" type="circle" size="28"/>
+      <image class="inventory_img" src="../../../image/commodity_big_1.png"></image>
+      <view class="text_box">
+        <view>
+          <text class="compile_title">813费用报销单48开费用报销单48开</text>
+          <text class="right">删除</text>
+        </view>
+        <view>
+           <text>货号3502</text>
+        </view>
+        <view>
+          <text>￥43.0</text>
+          <text class="right">×3</text>
+        </view>
+        <view>
+          <image class="bottom_arrow" src="../../../image/bottom_arrow.png"></image>
+          <text bindtap="numPopShow" class="color_FE3615 right">修改数量</text>
+        </view>
+      </view>
+    </view>
+    <view class="subtotal">
+      <text>共3个商品</text>
+      <text>小计￥129.00</text>
+    </view>
+  </view>
+  <view class="white_box">
+    <view class="inventory">
+      <icon class="icon" type="circle" size="28"/>
+      <image class="inventory_img" src="../../../image/commodity_big_1.png"></image>
+      <view class="text_box">
+        <view>
+          <text class="compile_title">813费用报销单48开费用报销单48开</text>
+          <text class="right">删除</text>
+        </view>
+        <view>
+           <text>货号3502</text>
+        </view>
+        <view>
+          <text>￥43.0</text>
+          <text class="right">×3</text>
+        </view>
+        <view>
+          <image class="bottom_arrow" src="../../../image/bottom_arrow.png"></image>
+          <text  bindtap="numPopShow" class="color_FE3615 right">修改数量</text>
+        </view>
+      </view>
+    </view>
+    <view class="subtotal">
+      <text>共3个商品</text>
+      <text>小计￥129.00</text>
+    </view>
+  </view>
+  
+  <view class="bottom_box">
+    <icon class="check_all" type="circle" size="28"/>
+    <view class="check_all_text">全选</view>
+    <view class="total">合计：￥358.65</view>
+    <view class="settle_accounts">结算（3）</view>
+  </view>
+</view>
+<!--修改数量弹窗-->
+<view class="{{numPop==1?'hide':'show'}}">
+  <view class="mask" bindtap="popHide"></view>
+  <view class="pop_cont">
+    <view class="pop_section">
+      <image class="commodity_img" src="../../../image/commodity_big_1.png"></image>
+      <view class="text_box">
+        <text class="title">501主力蓝色单蓝二联收据48开</text> 
+        <text class="article_num">货号501</text>
+        <view class="price_box">
+          <text class="color_FE3615">￥0.85</text>
+        </view>
+        <text class="color_FE3615 total">已选择商品40件，总价：￥1000.00</text>
+        <view class="specification_box">
+          <text class="colour">蓝色</text>
+          <view class="num_box">
+            <text class="subtract">-</text>
+            <text class="num">10</text>
+            <text class="plus">+</text>
+          </view>
+        </view>
+        <view class="specification_box">
+          <text class="colour">红色</text>
+          <view class="num_box">
+            <text class="subtract">-</text>
+            <text class="num">5</text>
+            <text class="plus">+</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <button class="btn" bindtap="popHide">确定</button>
+  </view>
+</view>

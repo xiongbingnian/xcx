@@ -1,0 +1,159 @@
+<!--pages/shop/commodityPage/commodityPage.wxml-->
+<view class="cont bg_F1F1F1">
+  <view class="nav">
+    <view data-num="1" class="{{_num==1?'active':''}}" bindtap="menuClick">全部</view>
+    <view data-num="2"  class="{{_num==2?'active':''}}" bindtap="menuClick">最新</view>
+    <view data-num="3"  class="{{_num==3?'active':''}}" bindtap="menuClick">价格</view>
+    <view data-num="4"  class="{{_num==4?'active':''}}" bindtap="menuClick">销量</view>
+    <view data-num="5"  class="{{_num==5?'active':''}}" bindtap="filtratePopShow">筛选</view>
+  </view>
+  <view class="section">
+    <view class="aside">
+      <view class="aside_li">
+        <text class="text_FE3615">点菜单</text>
+        <image class="r_arrows_active" src="../../../image/r_arrows_active.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>送货单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>进仓单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>出仓单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>入库单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>领料单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>调拨单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>退料单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>点菜单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>送货单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>进仓单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>出仓单</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+      <view class="aside_li">
+        <text>更多</text>
+        <image class="r_arrows_active"  src="../../../image/r_arrows.png"></image>
+      </view>
+    </view>
+    <view class="main">
+      <view class="main_item">
+        <image class="commodity_centre" src="../../../image/commodity_centre_1.png"></image>
+        <view class="text_box">
+          <text class="main_title">583主力三联无碳纸送货单32K蓝色 20组(60页)/本</text>
+          <view class="bottom_text">
+            <text class="text_FE3615">去绑定店铺</text>
+            <text class="text_9F9F9F">已售 12035</text>
+          </view>
+        </view>
+      </view>
+       <view class="main_item">
+        <image class="commodity_centre" src="../../../image/commodity_centre_1.png"></image>
+        <view class="text_box">
+          <text class="main_title">583主力三联无碳纸送货单32K蓝色 20组(60页)/本</text>
+          <view class="bottom_text">
+            <text class="text_FE3615">去绑定店铺</text>
+            <text class="text_9F9F9F">已售 12035</text>
+          </view>
+        </view>
+      </view>
+       <view class="main_item">
+        <image class="commodity_centre" src="../../../image/commodity_centre_1.png"></image>
+        <view class="text_box">
+          <text class="main_title">583主力三联无碳纸送货单32K蓝色 20组(60页)/本</text>
+          <view class="bottom_text">
+            <text class="text_FE3615">去绑定店铺</text>
+            <text class="text_9F9F9F">已售 12035</text>
+          </view>
+        </view>
+      </view>
+       <view class="main_item">
+        <image class="commodity_centre" src="../../../image/commodity_centre_1.png"></image>
+        <view class="text_box">
+          <text class="main_title">583主力三联无碳纸送货单32K蓝色 20组(60页)/本</text>
+          <view class="bottom_text">
+            <text class="text_FE3615">去绑定店铺</text>
+            <text class="text_9F9F9F">已售 12035</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!--筛选弹窗-->
+<view class="{{filtratePop==1?'hide':'show'}}">
+  <view class="mask" bindtap="filtrateHide"></view>
+  <view class="pop_cont">
+    <view class="pop_section">
+      <view class="title">筛选</view>
+      <view>
+        <view class="subtitle">品牌</view>
+        <view class="filtrate_box">
+          <text>主力</text>
+          <text>上值</text>
+          <text>必能</text>
+        </view>
+        <view class="shrink">
+          <view>
+            <text>展开</text>
+            <image class="bottom_arrow" src="../../../image/bottom_arrow.png"></image>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="subtitle">分类</view>
+        <view class="filtrate_box">
+          <text>本册</text>
+          <text>凭证</text>
+          <text>单据</text>
+        </view>
+        <view class="shrink">
+          <view>
+            <text>展开</text>
+            <image class="bottom_arrow" src="../../../image/bottom_arrow.png"></image>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="subtitle">价格区间</view>
+        <view class="filtrate_box">
+          <input class="min_price" placeholder="最低价" />
+          <view class="hr"></view>
+          <input class="max_price" placeholder="最高价" />
+        </view>
+      </view>
+      <view class="btn_box">
+        <view class="btn btn_active" bindtap="filtrateHide">确定</view>
+        <view class="btn">清除</view>
+      </view>
+    </view>
+  </view>
+</view>

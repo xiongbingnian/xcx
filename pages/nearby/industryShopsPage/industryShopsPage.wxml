@@ -1,0 +1,38 @@
+<!--pages/nearby/industryShopsPage/industryShopsPage.wxml-->
+<view class="cont bg_F1F1F1">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="100%"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="white_box">
+    <text class="shop_name">比酷文具店</text>
+  </view>
+  <view class="white_box">
+    <text>行业</text>
+    <text class="industry_text">办公文具</text>
+    <image class="bottom_arrow" src="../../../image/bottom_arrow.png"></image>
+  </view>
+  <view class="white_box">
+    <text>地址：</text>
+    <text class="address_text">广东省广州市花都区毕村北路三号之八</text>
+    <image class="next_step" src="../../../image/next_step.png"></image>
+    <view class="phone">
+      <image class="phone_img" src="../../../image/phone.png"></image>
+    </view>
+  </view>
+  <view class="white_box">
+    <text>简介</text>
+    <text class="intro_text">主营：办公用品 学生文具等</text>
+  </view>
+  <view class="white_box">
+    <text>店铺广告</text>
+  </view>
+  <view class="ad_box">
+    <image class="ad_img" src="../../../image/ad_1.png"></image>
+    <image class="ad_img" src="../../../image/ad_2.png"></image>
+  </view>
+</view>
+

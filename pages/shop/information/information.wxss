@@ -1,0 +1,35 @@
+/* pages/shop/information/information.wxss */
+.time{
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fff;
+  text-align: center;
+  font-size: 28rpx;
+}
+.info_main{
+  background: #EBEBEB;
+}
+.info_main>view{
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+.title,.shrink{
+  text-align: center;
+}
+.info_text{
+  color: #666666;
+  font-size: 28rpx;
+}
+.b_arrow{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0 10rpx 0 0;
+}
+.shrink>view{
+  width: 200rpx;
+  margin: auto;
+  color: #9C9C9C;
+  font-size: 28rpx;
+}

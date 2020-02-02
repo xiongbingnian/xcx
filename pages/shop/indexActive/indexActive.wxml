@@ -1,0 +1,100 @@
+<!--pages/shop/indexActive/indexActive.wxml-->
+<view class="cont bg_F1F1F1">
+   <image class="shop_big_img" src="../../../image/shop_big_img.png"></image>
+   <view class="shop_info">
+      <view>
+        <text class="shop_title">一乔办公文具店</text>
+      </view>
+      <view>
+        <text>商品 100</text>
+        <text>粉丝 500</text>
+        <image class="shop_star" src="../../../image/shop_star.png"></image>
+        <image class="shop_star" src="../../../image/shop_star.png"></image>
+        <image class="shop_star" src="../../../image/shop_star.png"></image>
+        <image class="shop_star" src="../../../image/shop_star.png"></image>
+        <image class="shop_star" src="../../../image/shop_star.png"></image>
+      </view>
+      <view>
+        <image class="shop_phone" src="../../../image/shop_phone.png"></image>
+        <text>13825647610</text>
+      </view>
+      <view>
+       <image class="shop_site" src="../../../image/shop_site.png"></image>
+        <text class="site_text">广东省广州市花都区毕村北路三号之八一桥办公文具店</text>
+      </view>
+      <view class="is_binding">已绑定</view>
+   </view>
+
+   <view class="search_box shop_search_box">
+      <input class="search" placeholder="商品/货号/品牌" bindtap="seaech" confirm-type="搜索"/>
+      <image class="i_search" src="../../../image/i_search.png"></image>
+      <image class="information" src="../../../image/shop_information.png" bindtap="information"></image>
+       <text class="dot_48C23D" bindtap="information">9</text>
+    </view>
+    <view class="commodity_box">
+      <view class="commodity">
+        <view class="circle_item" bindtap="commodity">
+          <image class="circle_img" src="../../../image/circle_img_1.png"></image>
+          <text class="commodity-name">办公文具</text>
+        </view>
+        <view class="circle_item" >
+          <image class="circle_img" src="../../../image/circle_img_2.png"></image>
+          <text class="commodity-name">日用百货</text>
+        </view>
+        <view class="circle_item" >
+          <image class="circle_img" src="../../../image/circle_img_2.png"></image>
+          <text class="commodity-name">其它</text>
+        </view>
+      </view>
+    </view>
+    <view class="boutique_title_box">
+       <text class="boutique_title">店家推荐推荐</text>
+       <view class="hr"></view>
+    </view>
+     <view class="boutique_box">
+       <view class="boutique_item" bindtap="details">
+        <image class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+        <view class="boutique_explain">
+          <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+          <view class="bottom_text">
+            <text class="text_FE3615">￥0.18</text>
+            <text class="text_9F9F9F">已售 12035</text>
+          </view>
+        </view>
+       </view>
+       <view class="boutique_item">
+        <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+        <view class="boutique_explain">
+          <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+          <view class="bottom_text">
+            <text class="text_FE3615">￥0.18</text>
+            <text class="text_9F9F9F">已售 12035</text>
+          </view>
+        </view>
+       </view>
+       <view class="boutique_item">
+          <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+          <view class="boutique_explain">
+            <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+            <view class="bottom_text">
+              <text class="text_FE3615">￥0.18</text>
+              <text class="text_9F9F9F">已售 12035</text>
+            </view>
+          </view>
+        </view>
+        <view class="boutique_item">
+          <image  class="commodity_big" src="../../../image/commodity_big_1.png"></image>
+          <view class="boutique_explain">
+            <text class="boutique_title">501蓝主力48开二联单栏收据</text>
+            <view class="bottom_text">
+              <text class="text_FE3615">￥0.18</text>
+              <text class="text_9F9F9F">已售 12035</text>
+            </view>
+          </view>
+        </view>
+    </view>
+</view>
+
+
+
+

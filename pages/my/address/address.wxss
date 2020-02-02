@@ -1,0 +1,34 @@
+/* pages/my/address/address.wxss */
+@import "../index/index.wxss";
+.address_box{
+  margin-bottom: 10rpx;
+  background: #fff;
+}
+.address_info,.address_set{
+  padding: 20rpx 40rpx;
+}
+.address_info{
+  border-bottom: 1px solid #ddd;
+}
+.detailed_address{
+  margin: 20rpx 0 0;
+  color: #707070;
+  font-size: 24rpx;
+}
+.address_set>view{
+  display: inline-block;
+  margin-left: 40rpx;
+}
+.address_set .select_box{
+  margin-left: 0;
+
+}
+icon{
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.compile_img,.del_img{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}

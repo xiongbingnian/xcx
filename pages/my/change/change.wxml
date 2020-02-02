@@ -1,0 +1,11 @@
+<!--pages/my/changePage/changePage.wxml-->
+ <view class="list_box">
+    <text>原密码</text>
+    <input class="username"/>
+  </view>
+  <view class="list_box">
+    <text>新密码</text>
+    <input class="password" password />
+  </view>
+  <text class="hint_text">密码由数字、字母、或符号组成</text>
+  <button class="btn">确定</button>

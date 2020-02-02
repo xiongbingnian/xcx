@@ -1,0 +1,22 @@
+<!--pages/my/compileAddress/compileAddress.wxml-->
+ <view class="list_box">
+  <text>收货人姓名</text>
+  <input class="address_input" value="猫星人"/>
+</view>
+<view class="list_box">
+  <text>手机号码</text>
+  <input class="address_input" value="15112537112"/>
+</view>
+<view class="list_box">
+  <text>所在区域</text>
+  <input class="address_input" value="广东省广州市花都区"/>
+</view>
+<view class="list_box">
+  <text>详细地址</text>
+  <input class="address_input" value="毕村北路三号之八"/>
+</view>
+<view class="list_box">
+  <text>设为默认地址</text>
+  <icon class="right" type="circle"/>
+</view>
+<button class="btn">保存</button>

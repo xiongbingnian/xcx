@@ -1,0 +1,60 @@
+<!--pages/my/binding/binding.wxml-->
+<view class="cont bg_F1F1F1">
+  <view class="site_box">
+    <image class="i_site2" src="../../../image/i_site2.png"></image>
+    <text class="site_text">广东省广州市花都区毕村北路三号之八</text>
+    <view class="reposition">重新定位</view>
+  </view>
+  <view class="nearby_box">
+    <text>附近店铺</text>
+    <image class="refresh" src="../../../image/refresh.png"></image>
+  </view>
+  <view class="shop_box">
+    <view class="shop_item" bindtap="industryShopsPage">
+      <image class="shop_img" src="../../../image/shop_img.png"></image>
+      <view class="text_box">
+        <text class="shop_title">一乔办公文具店</text>
+        <view>
+          <text class="text_left">供应各种品牌办公文具</text>
+          <text  class="{{binding_num==1?'btn_binding':'btn_nobinding'}}"  bindtap="binding">{{type}}</text>
+        </view>
+        <view class="">
+          <text class="color_8A8A8A">评分</text>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+        </view>
+        <view>
+          <image class="i_site" src="../../../image/i_site.png"></image>
+          <text class="text_left">花都区新华工业区156号1铺一乔文具</text>
+          <text class="text_right">500米</text>
+        </view>
+      </view>
+    </view>
+    <view class="shop_item">
+      <image class="shop_img" src="../../../image/shop_img.png"></image>
+      <view class="text_box">
+        <text class="shop_title">一乔办公文具店</text>
+        <view>
+          <text class="text_left">供应各种品牌办公文具</text>
+          <text class="btn_nobinding">绑定店铺</text>
+        </view>
+        <view class="">
+          <text class="color_8A8A8A">评分</text>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+          <image class="i_star" src="../../../image/i_star.png"></image>
+        </view>
+        <view>
+          <image class="i_site" src="../../../image/i_site.png"></image>
+          <text class="text_left">花都区新华工业区156号1铺一乔文具</text>
+          <text class="text_right">500米</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

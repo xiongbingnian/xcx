@@ -1,0 +1,49 @@
+/* pages/my/evaluate/evaluate.wxss */
+.rating_box{
+  background: #fff;
+  text-align: center;
+  padding: 40rpx;
+  margin-bottom: 20rpx;
+}
+.rating_title{
+  font-size: 36rpx;
+  font-weight: 500;
+}
+.star_box{
+  margin: 40rpx 0;
+}
+.star_box>image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.rating_result{
+  font-size: 42rpx;
+  font-weight: 400;
+}
+.write_box{
+  background: #fff;
+  padding: 40rpx;
+}
+.write_img{
+  width: 180rpx;
+  height: 180rpx;
+}
+.write_text{
+  width:480rpx;
+  height: 260rpx;
+  float: right; 
+}
+.sign_box{
+  text-align: right;
+  clear: right;
+}
+.sign{
+  width: 160rpx;
+  display: inline-block;
+  margin-top: 20px;
+  color: #808080;
+}
+.sign_icon{
+  vertical-align: middle;
+  margin-right: 10rpx;
+}

@@ -1,0 +1,25 @@
+<!--pages/my/evaluate/evaluate.wxml-->
+<view class="cont">
+  <view class="rating_box">
+    <view class="rating_title">宝贝评分</view>
+    <view class="star_box">
+      <image src="../../../image/on_rating_star.png"></image>
+      <image src="../../../image/on_rating_star.png"></image>
+      <image src="../../../image/on_rating_star.png"></image>
+      <image src="../../../image/on_rating_star.png"></image>
+      <image src="../../../image/rating_star.png"></image>
+    </view>
+    <view class="rating_result">4分 特别推荐</view>
+  </view>
+  <view class="write_box">
+    <image class="write_img" src="../../../image/commodity_big_1.png"></image>
+    <textarea class="write_text" placeholder="请写下对宝贝的感受吧，对他人帮助很大哦" />
+    <view class="sign_box">
+      <view class="sign">
+        <icon class="sign_icon" type="circle" size="24"/>
+        <text>匿名</text>
+      </view>
+    </view>
+  </view>
+   <button class="btn">提交</button>
+</view>

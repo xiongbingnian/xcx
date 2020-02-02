@@ -1,0 +1,24 @@
+/* pages/my/personalData/personalData.wxss */
+@import "../index/index.wxss";
+.change_head{
+  width: 100%;
+  height: 450rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.change_head_box{
+  width: 310rpx;
+  margin: 30rpx auto;
+}
+.change_head_img{
+  width: 310rpx;
+  height: 310rpx;
+  border-radius: 50%;
+}
+.change_head_box text{
+  font-size: 32rpx;
+}
+.list_box{
+  padding: 10rpx 40rpx;
+  margin-bottom: 10rpx;
+}

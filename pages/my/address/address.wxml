@@ -1,0 +1,55 @@
+<!--pages/my/address/address.wxml-->
+<view class="cont">
+  <view class="address_box">
+    <view class="address_info">
+      <view class="classname">
+        <text>收货人：猫星人</text>
+        <text class="right">15112537112</text>
+      </view>
+      <view class="detailed_address">
+        <text>广东省广州市白云区新市街道云城西路228号228创意园C栋301室璎珞科技</text>
+      </view>
+    </view>
+    <view class="address_set">
+      <view class="select_box" bindtap="selectClick">
+        <icon data-num="1" type="{{_num==1?'success':'circle'}}" color="{{_num==1?'#F7950F':'#666666'}}"  size="20"/>
+        <text>默认地址</text>
+      </view>
+      <view class="right" bindtap="modalcnt">
+        <image class="del_img" src="../../../image/i_del.png"></image>
+        <text>删除</text>
+      </view>
+      <view class="right"  bindtap="compileAddress">
+        <image class="compile_img" src="../../../image/i_compile.png"></image>
+        <text>编辑</text>
+      </view>
+    </view>
+  </view>
+  <view class="address_box">
+    <view class="address_info">
+      <view class="classname">
+        <text>收货人：猫星人</text>
+        <text class="right">15112537112</text>
+      </view>
+      <view class="detailed_address">
+        <text>广东省广州市白云区新市街道云城西路228号228创意园C栋301室璎珞科技</text>
+      </view>
+    </view>
+    <view class="address_set">
+      <view class="select_box" bindtap="selectClick">
+        <icon data-num="2" type="{{_num==2?'success':'circle'}}" color="{{_num==2?'#F7950F':'#666666'}}" size="20"/>
+        <text>默认地址</text>
+      </view>
+      <view class="right" bindtap="modalcnt">
+        <image class="del_img" src="../../../image/i_del.png"></image>
+        <text>删除</text>
+      </view>
+      <view class="right" bindtap="compileAddress">
+        <image class="compile_img" src="../../../image/i_compile.png"></image>
+        <text>编辑</text>
+      </view>
+    </view>
+  </view>
+
+  <button class="btn" bindtap="newAddress">+新增</button>
+</view>
